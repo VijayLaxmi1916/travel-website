@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="travel.css">
+   
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <h1 class="logo"><a href="travel.html">Advanture</a></h1>
+       <ul class="nav-links">
+        <li class="active"><a href="travel.html">Home</a></li>
+        <li><a href="tour.html">Tours</a></li>
+        <li><a href= "explore.html">Explore</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="ctn"><a href="contact.html">Contact</a></li>
+       </ul>
+       <img src="images/menu (1).png" alt="" class="menu-btn">
+     </nav>
+   <header>
+    <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A Wonderful Gift</h1>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+   </header> 
+   <!-- Events -->
+       <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row upcoming-event-main" >
+            <div class="col upcoming-event-div">
+                <img src="images/phote1.jpg" alt="" class="img1">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consetetur adipisicing elit. <p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col upcoming-event-div">
+                <img src="images/banne1.jpg" alt="" class="img1" >
+                <h4>Walking  Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consctetur adipisicing elit. </p>
+               <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col upcoming-event-div">
+                <img src="images/banne1.jpg" alt="" class="img1" >
+                <h4>Walking  Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consctetur adipisicing elit. </p>
+               <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col upcoming-event-div">
+                <img src="images/banne1.jpg" alt="" class="img1" >
+                <h4>Walking  Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consctetur adipisicing elit. </p>
+               <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+       </section>
+
+       <section class="explore">
+             <div class="explore-content">
+                <h1>EXPLORE THE WORLD</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem optio voluptatum error? Laboriosam, </p>
+                <a href="#" class="ctn"> Learn More</a>
+             </div>
+       </section>
+
+       <section class="tours">
+        <div class="row tours-container">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet conetur adipisicing elit. Reprehenderit doloremque tempore ullam distinctio voluptate obcaecati cupiditate tenetur possimus atque quo.</p>
+                <a href="#" class="ctn"> Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/img5.jpg" alt="" > 
+                    <img src="images/img7.avif" alt="" >
+                    <img src="images/img8.avif" alt="" >
+                    <img src="images/img9.jpg" alt="" >
+                   
+                </div>
+            </div>
+        </div>
+       </section>
+       <section class="footer">
+        <p>123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456| Email: contact@examp</p>
+        <p>Copyright @ 2020 outdoor Adventure</p>
+       </section>
+   <script>
+    const menuBtn = document.querySelector('.menu-btn');
+   const navlinks = document.querySelector('.nav-links');
+
+   menuBtn.addEventListener('click', () => {
+       navlinks.classList.toggle('mobile-menu');
+   });
+   </script>
+</body>
+</html>
